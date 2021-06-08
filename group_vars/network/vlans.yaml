@@ -1,0 +1,10 @@
+---
+- name: dmz
+  state: active
+  vlan_id: 5
+- name: voip
+  state: active
+  vlan_id: 10
+- name: desktop
+  state: active
+  vlan_id: 30
